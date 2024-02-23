@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color:white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.navbar ul{
+    display: inline-flex; /* liste elemanlarının yan yana gelmesini sağlar*/
+    list-style: none; /*liste elemanlarının başındaki işareti kaldırdık*/
+}
+.navbar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;/*Link elemanları altındaki çizgiyi kaldırdık.*/
+    color: black;
+}
+.active, .navbar ul li:hover{
+    background-color: #d4c995;
+    border-radius: 5px;
+}
+.navbar ul li i{
+    margin-right: 8px;
+}
+
+.yemekler{
+    list-style:circle;
+}
